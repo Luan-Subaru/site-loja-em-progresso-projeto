@@ -1,0 +1,88 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    padding-top: 100px;
+    background-color: white;
+}
+
+header{
+    background-color: rgb(240, 240, 240);
+    font-family: "Bebas Neue", serif;
+    width: 100%;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    position: fixed;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    top: 0;
+    height: 100px;
+}
+
+header a{
+    width: 20%;
+    justify-content: space-around;
+    color: black;
+    padding: 5%;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: text-shadow 0.3s ease;
+}
+
+header a:hover{
+    text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.15);
+}
+
+header img{
+    width: 10%;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+
+
+.apresentacaoSite{
+    font-family: "Bebas Neue", serif;
+    color: black;
+    flex-wrap: wrap;
+    font-size: 2rem;
+    font-family: "Faculty Glyphic", sans-serif;
+    text-align: center;
+}
+
+.apresentacaoSite #slogan{
+    font-family: "Bebas Neue", serif;
+    color: black;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    font-family: "Faculty Glyphic", sans-serif;
+    text-align: center;
+}
+
+.apresentacaoSite #apresentacao{
+    display: flex;
+    justify-content: center;
+}
+
+.apresentacaoSite #apresentacao img{
+    justify-items: center;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+}
+
+
+.divisao img{
+    width: 100%;
+
+}
+
